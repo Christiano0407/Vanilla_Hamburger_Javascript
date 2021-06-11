@@ -37,12 +37,16 @@ ul {
 }
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 img {
     object-fit: cover;
     background-image: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    width: 500px;
+    height: 400px;
 }
 button {
     outline: none;
