@@ -6,6 +6,9 @@
     width: 40%;
     text-transform: uppercase;
 }
+
 p {
     margin-top: 1rem;
+    letter-spacing: 1px;
+    text-transform: lowercase;
 }

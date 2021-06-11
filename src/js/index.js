@@ -7,12 +7,12 @@ let logo = document.querySelector(`.logo`);
 
 let navLinks = Array.from(document.querySelectorAll(`.nav-link`)); 
 
-menuTog.addEventListener(`click`, (e) => {
-     menuTog.classList.add(`active`); 
-     navRight.classList.add(`active`); 
-     navLeft.classList.add(`active`); 
-     logo.classList.add(`active`); 
-     nav.classList.add(`active`); 
+menuTog.addEventListener(`click`, () => {
+     menuTog.classList.toggle(`active`); 
+     navRight.classList.toggle(`active`); 
+     navLeft.classList.toggle(`active`); 
+     logo.classList.toggle(`active`); 
+     nav.classList.toggle(`active`); 
 
      //Remove active class to restart delayed effect
 
@@ -32,6 +32,10 @@ menuTog.addEventListener(`click`, (e) => {
                  navLinks[i].classList.add(`active`)
              }, i * 100)
          }
+
+         setTimeout(() => {
+             contact.classList.add(`active`); 
+         }, 700); 
      }
 
 }); 
