@@ -1,0 +1,25 @@
+{
+  "name": "hamburger-menu",
+  "version": "1.0.0",
+  "description": "Project menu with vanilla javascript ",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Vanilla_Hamburger_Javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm",
+    "menu",
+    "vanilla"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Vanilla_Hamburger_Javascript/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Vanilla_Hamburger_Javascript#readme"
+}
