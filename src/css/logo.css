@@ -1,0 +1,9 @@
+.logo a i {
+    position: fixed;
+    top: 4rem;
+    left: 5%;
+    color: #fff;
+    font-size: 2rem;
+    pointer-events: none;
+    transition: 1s;
+}
