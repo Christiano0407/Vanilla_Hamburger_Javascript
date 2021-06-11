@@ -7,3 +7,6 @@
     pointer-events: none;
     transition: 1s;
 }
+.logo a i.active {
+    color: #000000;
+}

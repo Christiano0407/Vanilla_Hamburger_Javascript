@@ -3,6 +3,9 @@
 @import "./navegation.css"; 
 @import "./logo.css"; 
 @import "./welcome.css"; 
+@import "./button.css";
+@import "./image.css";  
+@import "./explore.css"; 
 @import "./media.css"; 
 /* ==== Variables ====*/
 :root {

@@ -1,0 +1,11 @@
+.welcome {
+    color: rgba(255, 255, 255, .8);
+    position: relative;
+    left: 5%;
+    top: 30vh;
+    width: 40%;
+    text-transform: uppercase;
+}
+p {
+    margin-top: 1rem;
+}
