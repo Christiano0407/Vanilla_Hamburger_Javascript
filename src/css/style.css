@@ -1,4 +1,30 @@
-* {
+:root {
+         /*==Color Base==*/
+    --clr-base: #7135F2;
+    --clr-secondary: #05AFF2; 
+    --clr-complementaryOne: #05C7F2; 
+    --clr-complementaryTwo: #05DBF2; 
+    --clr-Three: #F2B29B;
+
+        /*==Fonts/sizes==*/
+    --fontBase: 'Montserrat', sans-serif;
+
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size-tall: 1.8rem; 
+    --font-size-title: 2.4rem; 
+
+    --headLine1: bold 95px/153.71px var(--fontBase); 
+    --headLine2: bold 59px/95px var(--fontBase); 
+    --headLine3: bold 48px/77px var(--fontBase); 
+    --headLine4: bold 34px/55px var(--fontBase); 
+    --headLine5: bold 24px/38px var(--fontBase); 
+    --body1:  16px/25px var(--fontBase); 
+    --body2:  14px/22px var(--fontBase); 
+    --button: bold 14px/22px var(--fontTwo); 
+    --caption:  12px/19px var(--fontTwo); 
+}
+*,::before,::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,4 +46,7 @@ img {
 }
 button {
     outline: none;
+}
+body {
+    font-family: var(--fontBase); 
 }
