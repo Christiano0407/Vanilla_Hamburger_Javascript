@@ -1,0 +1,44 @@
+.menu-toggle {
+    position: fixed;
+    z-index: 9999;
+    right: 5%;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.5;
+    cursor: pointer;
+    top: 4rem;
+
+}
+/*Menu-active*/
+.menu-toggle.active {
+    transform: rotate(-180deg);
+}
+/*Menu-span // girar cuando está activo*/
+.menu-toggle span {
+    background: #ffffff;
+    width: 100%;
+    height: 3px;
+}
+.menu-toggle.active span:nth-child(1) {
+    position: absolute;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    position: absolute;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

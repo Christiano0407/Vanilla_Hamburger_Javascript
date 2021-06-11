@@ -1,5 +1,8 @@
+/*===== Web Components CSS ====*/
+@import "./menuToggle.css"; 
+/* ==== Variables ====*/
 :root {
-         /*==Color Base==*/
+         /*==== Color Base // Componentes de Diseño ====*/
     --clr-base: #7135F2;
     --clr-secondary: #05AFF2; 
     --clr-complementaryOne: #05C7F2; 
@@ -38,6 +41,10 @@ ul {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #000;
+}
+a:hover {
+    opacity: 0.5;
 }
 img {
     object-fit: cover;
@@ -53,4 +60,15 @@ button {
 }
 body {
     font-family: var(--fontBase); 
+    background: #272c2c;
+}
+.large {
+ font-size: var(--font-size-small);
+ text-transform: uppercase;
+ font-weight: 700;
+}
+.small {
+    font-size: 0.8rem;
+    color: #161616a9;
+    font-weight: 500;
 }
