@@ -1,5 +1,6 @@
 /*===== Web Components CSS ====*/
 @import "./menuToggle.css"; 
+@import "./navegation.css"; 
 /* ==== Variables ====*/
 :root {
          /*==== Color Base // Componentes de Diseño ====*/
@@ -61,14 +62,4 @@ button {
 body {
     font-family: var(--fontBase); 
     background: #272c2c;
-}
-.large {
- font-size: var(--font-size-small);
- text-transform: uppercase;
- font-weight: 700;
-}
-.small {
-    font-size: 0.8rem;
-    color: #161616a9;
-    font-weight: 500;
 }
