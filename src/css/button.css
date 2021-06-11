@@ -11,3 +11,9 @@
     transition: .5s;
     border-radius: .5rem;
 }
+.button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #272c2c;
+    transition: .5s;
+}
